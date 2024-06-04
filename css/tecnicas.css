@@ -1,0 +1,143 @@
+body {
+    background: #F2EDD7;
+    color: #393232;
+    font-family: "Oswald", sans-serif;
+    margin: 0;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+    background-color: #393232;
+    color: #E48257;
+    padding: 10px;
+}
+
+#logo {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    background-color: #E48257;
+    margin: auto;
+    transition: all 3s ease-out;
+    justify-content: center;
+    padding: 20px;
+    border: 2px solid #E48257;
+}
+
+#logo:hover {
+    width: 100px;
+    height: 100px;
+    background-color: #DFD0B8;
+    border-color: #DFD0B8;
+    transform: rotate(360deg);
+}
+
+nav {
+    margin: auto;
+    padding: auto;
+}
+
+nav a {
+    border: 2px solid #DFD0B8;
+    text-decoration: none;
+    color: #DFD0B8;
+    margin: 20px;
+    padding: 3px;
+    font-size: 30px;
+    border-radius: 10px;
+}
+
+nav a:hover {
+    background-color: #DFD0B8;
+    color: #393232;
+}
+
+.internos {
+    list-style: none;
+    display: flex;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 50px;
+    color: #E48257;
+    margin: auto;
+}
+
+h2 {
+    text-align: center;
+    size: 10px;
+    background-color: #393232;
+    color: #E48257;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+    margin-top: 5px;
+}
+
+section {
+    width: 65%;
+}
+
+article {
+    justify-content: start;
+    margin: 20px;
+    text-align: center;
+}
+
+h3, p {
+    text-align: start;
+}
+
+img{
+    justify-content: center;
+    background-color: #393232;
+    padding: 20px;
+    border: 2px solid #E48257;
+}
+
+#imagenCarousel {
+    height: 500px !important;
+}
+
+aside {
+    margin-top: 20px;
+    justify-content: end;
+    background-color: #393232;
+    color: #E48257;
+    padding: 2px;
+    width: 30%;
+    text-align: center;
+}
+
+.lista {
+    list-style: none;
+}
+
+.externo {
+    margin: 100px 0px;
+    font-size: 40px;
+}
+
+.externoBoton {
+    color: #393232;
+    text-decoration: none;
+    border: none;
+    display: block;
+    width: 200px;
+    margin: auto;
+    background-color: #E48257;
+}
+
+.externoTitulo {
+    text-decoration: underline;
+}
