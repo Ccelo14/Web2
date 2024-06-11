@@ -94,6 +94,15 @@ article {
     text-align: center;
 }
 
+article ul{
+    float: left;
+}
+
+article ul li{
+    font-size: 20px;
+    margin-top: 10px;
+}
+
 h3, p {
     text-align: start;
 }
@@ -105,39 +114,10 @@ img{
     border: 2px solid #E48257;
 }
 
-#imagenCarousel {
-    height: 500px !important;
+.imagenCarousel{
+    height: 500px!important;
 }
 
-aside {
-    margin-top: 20px;
-    justify-content: end;
-    background-color: #393232;
-    color: #E48257;
-    padding: 2px;
-    width: 30%;
-    text-align: center;
-}
-
-.lista {
-    list-style: none;
-}
-
-.externo {
-    margin: 100px 0px;
-    font-size: 40px;
-}
-
-.externoBoton {
-    color: #393232;
-    text-decoration: none;
-    border: none;
-    display: block;
-    width: 200px;
-    margin: auto;
-    background-color: #E48257;
-}
-
-.externoTitulo {
-    text-decoration: underline;
+p{
+    font-size: 20px;
 }

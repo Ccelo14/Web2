@@ -75,6 +75,10 @@ h2 {
     color: #E48257;
 }
 
+main{
+    margin-top: 2%;
+}
+
 section {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -103,15 +107,15 @@ article:hover {
     transform: scale(1.1);
 }
 
-img{
+article img{
     width: 300px;
     height: 500px;
     background-color: #393232;
 }
 
 nav {
-    text-align: center;
-    margin: 20px;
+    margin: auto;
+    padding: auto;
 }
 
 footer{
